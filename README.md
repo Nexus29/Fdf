@@ -64,21 +64,6 @@ The user should be able to interact with the wireframe model using keyboard cont
 
 ---
 
-### 📂 Program Structure
-
-The project is generally divided into several logical units:
-
-| File/Module | Responsibility |
-| :--- | :--- |
-| `fdf.h` | The main header file containing structs (`t_map`, `t_fdf`), function prototypes, and macros. |
-| `main.c` | Handles argument parsing, initialization, and starting the main loop. |
-| `map_reader.c` | Responsible for reading the `.fdf` file and filling the coordinate grid struct. |
-| `drawer.c` | Contains the primary function to iterate through the map and call the line-drawing algorithm. |
-| `renderer.c` | Handles all projection logic (converting 3D to 2D) and applying transformations. |
-| `events.c` | Manages user input (keyboard hooks, mouse hooks). |
-
----
-
 ### 👤 Author
 
 * **Giovanni Pio Lancellotta** - [Nexus29](https://github.com/Nexus29)

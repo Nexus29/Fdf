@@ -23,8 +23,8 @@ FdF requires the **MiniLibX** library, which is typically pre-installed or easil
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Nexus29/42-fdf.git](https://github.com/Nexus29/42-fdf.git)
-    cd 42-fdf
+    git@github.com:Nexus29/Fdf.git
+    cd Fdf
     ```
 
 2.  **Compile the Program:**

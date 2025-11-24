@@ -5,15 +5,27 @@
 
 ### 🌟 Project Overview
 
-This repository contains **FdF** (Fil de Fer), a graphic project from the **42 Common Core curriculum**. 
+This repository contains **FdF** (Fil de Fer), a graphic project from the **42 Common Core curriculum**.
 
-The goal of FdF is to read a map file containing elevation data and use the MiniLibX library to display this data as a **3D wireframe model** projected onto a 2D window. This project is a crucial step in understanding matrix transformations, linear algebra, and basic graphics programming.
+The goal of FdF is to read a map file containing elevation data and use the **MiniLibX** library to display this data as a **3D wireframe model** projected onto a 2D window. This project is a crucial step in understanding matrix transformations, linear algebra, and basic graphics programming.
 
 #### **Key Concepts Covered:**
 * **File Handling:** Parsing a map file (`.fdf`) to extract a grid of `(x, y, z)` coordinates.
 * **MiniLibX:** Initializing a window, managing events (keyboard/mouse), and drawing pixels/lines.
 * **Projection:** Applying a mathematical transformation (typically **isometric** or parallel projection) to convert 3D coordinates into 2D screen coordinates.
 * **Line Drawing:** Implementing a line drawing algorithm (like **Bresenham's** or a variation) to connect points on the screen.
+
+---
+
+### 🖼️ Visual Examples
+
+Here are several visualizations of the FdF program in action, showcasing different datasets and projection types:
+
+| Isometric Terrain (Colored Wireframe) | Isometric Fractal (Solid Fill) | Top-Down Fractal (Grid View) |
+| :---: | :---: | :---: |
+| !['Screenshot of FdF showing a terrain map with colored elevation (blue for water, green/brown for land) in Isometric view.'](https://github.com/Nexus29/Fdf/blob/main/image/5.png?raw=true) | !['Screenshot of FdF showing a complex, white, raised fractal shape on a red grid in Isometric view.'](https://github.com/Nexus29/Fdf/blob/main/image/1.png?raw=true) | !['Screenshot of FdF showing a white fractal shape on a red grid in a flat, Top-Down view.'](https://github.com/Nexus29/Fdf/blob/main/image/4.png?raw=true) |
+| **Wireframe Coastline** | **Mandelbrot-like Shape** | **Terrain Wireframe** |
+| !['Screenshot of FdF showing a wireframe grid of a terrain map with green and blue lines in Isometric view, resembling a coastline.'](https://github.com/Nexus29/Fdf/blob/main/image/2.png?raw=true) | !['Screenshot of FdF showing a large, solid, white/gray fractal shape resembling a Mandelbrot set on a red grid in Isometric view.'](https://github.com/Nexus29/Fdf/blob/main/image/3.png?raw=true) | !['Screenshot of FdF showing a terrain map with colored elevation (blue for water, green/brown for land) in Isometric view.'](https://github.com/Nexus29/Fdf/blob/main/image/5.png?raw=true) |
 
 ---
 
@@ -69,5 +81,3 @@ The user should be able to interact with the wireframe model using keyboard cont
 * **Giovanni Pio Lancellotta** - [Nexus29](https://github.com/Nexus29)
     * `42 Student ID:` **glancell**
     * `Personal Website:` *Coming Soon!*
-
----

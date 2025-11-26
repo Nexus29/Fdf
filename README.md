@@ -5,7 +5,7 @@
 
 ### 🌟 Project Overview
 
-This repository contains **FdF** (Fil de Fer), a graphic project from the **42 Common Core curriculum**.
+This repository contains **FdF** (Fil de Fer).
 
 The goal of FdF is to read a map file containing elevation data and use the **MiniLibX** library to display this data as a **3D wireframe model** projected onto a 2D window. This project is a crucial step in understanding matrix transformations, linear algebra, and basic graphics programming.
 
